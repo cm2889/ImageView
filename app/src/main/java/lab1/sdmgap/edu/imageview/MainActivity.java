@@ -7,16 +7,16 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private Button submite;
+    private Button submited;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        submite = findViewById(R.id.buttonId);
+        submited = findViewById(R.id.buttonId);
 
-        submite.setOnClickListener(new View.OnClickListener() {
+        submited.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this,"Submite button is clicked",Toast.LENGTH_LONG).show();
